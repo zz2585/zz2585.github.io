@@ -1,38 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-P553C2M8');</script>
+  <!-- Google Tag Manager (moved to end of <head>, loads async by default) -->
+  <script>
+    window.addEventListener('load', function() {
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-P553C2M8');
+    });
+  </script>
   <!-- End Google Tag Manager -->
 
   <script defer data-domain="zitongzeng.com" src="https://plausible.io/js/script.js"></script>
-	
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <!-- Google Analytics -->
+  <script defer src="https://www.googletagmanager.com/gtag/js?id=G-QW6NPLQPRW"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-QW6NPLQPRW');
+    window.addEventListener('load', function() {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QW6NPLQPRW');
+    });
   </script>
-	
+
   <!-- Hide ClustrMaps -->
   <style>
-    #clustrmaps-wrapper {
-      display: none;
-    }
+    #clustrmaps-wrapper { display: none; }
   </style>
+
+  <!-- Browser caching hints -->
+  <meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
 
   <title>Zitong Zeng</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Preconnect to speed up third-party origins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://maxcdn.bootstrapcdn.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com" crossorigin>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <!-- JS deferred so it doesn't block rendering -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700&display=swap' rel='stylesheet' type='text/css'>
+
   <link rel="icon" type="image/png" href="files/favicon_package/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="files/favicon_package/favicon.svg" />
   <link rel="shortcut icon" href="files/favicon_package/favicon.ico" />
@@ -40,9 +56,7 @@
   <link rel="manifest" href="files/favicon_package/site.webmanifest" />
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-	
-  
-	
+
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -50,63 +64,70 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <!--clustermap (noscript) -->
+  <!-- ClustrMaps (hidden) -->
   <div id="clustrmaps-wrapper">
     <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=qXE4bf2IChpJXTSrSTTzp6vLACHuhOvcevqNuyqIkC4"></script>
   </div>
-  <!-- End --clustermap (noscript) -->	
 
-<!-- Navigation -->
-<nav class="navbar navbar-inverse">
-  <div class="container">
-    <ul class="nav navbar-nav">
-      <li><a style="color:#397db0" href="index.html">Home</a></li>
-      <li><a href="research.html">Research</a></li>
-    </ul>
-  </div>
-</nav>
-
-  
-  <!-- Page Content -->
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse">
     <div class="container">
-
-        <div class="row">
-
-            <!-- Entries Column -->
-            <div class="col-md-8" style="min-height: 100vh; height: auto;">
-                
-                <!-- Main Image -->
-                <img align="middle" style="display:block; height: auto; max-width: 50%; margin-left: auto; margin-right: auto;" class="img-responsive" src="files/SMU_headshot.jpg">
-                <br>
-
-                <div style="margin-top:3%; text-align:justify; font-size: 14px;">                
-                    <p>
-                        I am an Assistant Professor in the School of Accountancy at Singapore Management University. 
-                        <br><br>
-                        My research investigates the real effects of financial reporting and disclosure on the product and capital markets. I am interested in how accounting information and regulations shape corporate operating decisions, such as promotion and pricing strategies. My work also examines the capital market consequences of disclosure, focusing on how market participants, including retail investors, process and trade on financial information. 
-                        <br><br>
-                        I earned a B.B.A. in Management and Finance with High Distinction from the University of Toronto and an M.A. in Quantitative Methods in the Social Sciences from Columbia University.
-                    </p>
-                </div> 
-            </div> 	    
-           
-            <!-- Contact Info on the Sidebar -->
-            <div class="col-md-4">
-                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Zitong Zeng</b></div><br>
-                <p><b>ztzeng[at]smu.edu.sg</b><br>
-                <p>Assistant Professor of Accounting<br>
-                Singapore Management University<br>
-                </p>
-            </div>
-            
-            <!-- Links on the Sidebar -->
-            <div class="col-md-4" style="margin-top:2%">
-		<dd><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4651130" target="_blank">SSRN</a></dd>
-                <dd><a href="https://scholar.google.com/citations?user=oEyYY4kAAAAJ&hl=en" target="_blank">Google Scholar</a></dd>
-                <dd><a href="https://www.linkedin.com/in/zitong-zeng-57054316a/" target="_blank">Linkedin</a></dd>
-                <br>
-            </div>
-        </div>
+      <ul class="nav navbar-nav">
+        <li><a style="color:#397db0" href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+      </ul>
     </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+
+      <!-- Entries Column -->
+      <div class="col-md-8" style="min-height: 100vh; height: auto;">
+
+        <!-- Main Image: explicit dimensions + lazy loading -->
+        <img
+          align="middle"
+          style="display:block; height: auto; max-width: 50%; margin-left: auto; margin-right: auto;"
+          class="img-responsive"
+          src="files/SMU_headshot.jpg"
+          width="400"
+          height="400"
+          loading="lazy"
+          alt="Zitong Zeng headshot"
+        >
+        <br>
+
+        <div style="margin-top:3%; text-align:justify; font-size: 14px;">
+          <p>
+            I am an Assistant Professor in the School of Accountancy at Singapore Management University.
+            <br><br>
+            My research investigates the real effects of financial reporting and disclosure on the product and capital markets. I am interested in how accounting information and regulations shape corporate operating decisions, such as promotion and pricing strategies. My work also examines the capital market consequences of disclosure, focusing on how market participants, including retail investors, process and trade on financial information.
+            <br><br>
+            I earned a B.B.A. in Management and Finance with High Distinction from the University of Toronto and an M.A. in Quantitative Methods in the Social Sciences from Columbia University.
+          </p>
+        </div>
+      </div>
+
+      <!-- Contact Info on the Sidebar -->
+      <div class="col-md-4">
+        <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Zitong Zeng</b></div><br>
+        <p><b>ztzeng[at]smu.edu.sg</b><br>
+        <p>Assistant Professor of Accounting<br>
+        Singapore Management University<br>
+        </p>
+      </div>
+
+      <!-- Links on the Sidebar -->
+      <div class="col-md-4" style="margin-top:2%">
+        <dd><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4651130" target="_blank">SSRN</a></dd>
+        <dd><a href="https://scholar.google.com/citations?user=oEyYY4kAAAAJ&hl=en" target="_blank">Google Scholar</a></dd>
+        <dd><a href="https://www.linkedin.com/in/zitong-zeng-57054316a/" target="_blank">Linkedin</a></dd>
+        <br>
+      </div>
+
+    </div>
+  </div>
 </body>
 </html>
